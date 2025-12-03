@@ -2,6 +2,8 @@
 
 A simple, single-page medical information form built using React. This project demonstrates the use of React functional components and the `useState` hook to manage form state. The entire application runs in the browser without a build step, relying on CDN links for React and Babel.
 
+## link to see in browser: https://clinquant-starlight-31882b.netlify.app/
+
 ## Features
 
 The form collects the following information:
