@@ -2,7 +2,7 @@
 
 A modern, visually appealing, and animated to-do list application built with React. It features a smooth, glassy interface with a dynamic gradient background and fluid animations for a great user experience.
 
-# link to see it live: 
+**Live Demo:** [View Live Application](https://your-project-name.vercel.app)
 *(You can replace the placeholder link above with a real screenshot of your app!)*
 
 ## ✨ Features
