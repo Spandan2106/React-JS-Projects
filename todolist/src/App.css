@@ -1,0 +1,167 @@
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.app h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.todo-input {
+  flex-grow: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.todo-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.todo-input:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.todo-button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #8e44ad;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.todo-button:hover {
+  background-color: #9b59b6;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  animation: slideIn 0.5s forwards;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-item.completed span {
+  color: #bdc3c7;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: #3498db;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: transform 0.2s ease;
+}
+
+.edit-button:hover {
+  transform: scale(1.2);
+  color: #2980b9;
+}
+.delete-button {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: transform 0.2s ease;
+}
+
+.delete-button:hover {
+  transform: scale(1.2);
+  color: #c0392b;
+}
+
+.edit-input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #8e44ad;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
