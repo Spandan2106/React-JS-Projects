@@ -1,6 +1,6 @@
 // App.tsx file
 
-import React, { useState, FC, Fragment } from 'react';
+import React, { useState, FC } from 'react';
 
 // The AppProps interface is no longer needed as we are not passing props.
 

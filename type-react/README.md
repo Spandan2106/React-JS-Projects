@@ -4,6 +4,9 @@
 
 This project is a beginner-friendly demonstration of a React application built with TypeScript. It features a clean, modern UI with dynamic elements, animations, and a focus on good development practices like semantic HTML and accessibility.
 
+## the link :
+    https://typescript-react-app-2025.netlify.app/
+
 ## Features
 
 - **Built with React and TypeScript:** Leverages the power of React for building UIs and TypeScript for type safety.
@@ -47,6 +50,7 @@ Make sure you have Node.js and npm installed on your machine.
     ```
 
 The application will open automatically in your default browser at `http://localhost:3000`.
+
 
 ## License
 
