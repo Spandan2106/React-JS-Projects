@@ -17,3 +17,14 @@ Since this repository contains multiple standalone React projects, please follow
    ```bash
    git clone [https://github.com/YOUR_USERNAME/React-JS-Projects.git](https://github.com/YOUR_USERNAME/React-JS-Projects.git)
    cd React-JS-Projects
+   ```
+3. **Navigate to the specific project folder you want to work on**(e.g., todolist, React-Js-Counter):
+
+```Bash
+cd <project-folder-name>
+```
+4. **Install dependencies:**
+
+```Bash
+npm install
+```
